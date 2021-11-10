@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#principal{
+    width:999px;
+    margin: 20px auto;
+}
+
+
+.topo{
+    background-color: #db7af3;
+    position:relative;
+    height: 65px;
+}
+
+.logo{
+    width:65px;  
+    height: 65 px;
+    margin: 0 0 0 150px;
+}
+
+.header-nav{
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+.header-nav ul{
+    margin:0;
+    padding:0;
+    height: 100%;
+   
+}
+
+.header-nav li{
+    display:inline-block;
+    margin: 0 15px 0 0;
+    list-style: none;
+    padding: 15px;
+
+}
+
+.header-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color:#801f5a;
+    transition: color 0.3s linear;
+}
+
+.header-nav a:hover{
+    color: #cf3b94;
+ }   
+
+ .biografia{
+    padding: 40px 100px;
+    text-align: center;
+ }
+
+ .biografia h1{
+     font-size: 36px;
+     color:#000;
+ }
+
+ .biografia p{
+     font-size: 16;
+     line-height: 2;
+     color: #000;
+ }
+
+ .galeria{
+     color:#fff;
+     padding: 0 100px 50px 100px;
+     overflow: auto;
+ }
+
+ .galeria-card{
+    width:32%;
+    float: left;
+    text-align: center;
+
+}
+
+.galeria-card img{
+    max-width: 100%;
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+
+
+ }
+
+ .galeria-titulo{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.galeria-texto{
+
+      font-size:14px;
+}
+
+.descricao{
+    background-color:#db7af3;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:0 50px 20px 50px;
+    padding:  60px ;
+
+}
+
+.descricao h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color:#000;
+}
+.descricao p{
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+    color:#000;
+
+}
+
+#contato{
+    margin: 50px 0;
+}
+
+#contato address{
+    color:#801f5a;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.mapa{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.mapa iframe{
+    width: 100%;
+}
+
+.rodape{
+    background-color:#db7af3;
+    color:#000;
+    font-size: 12px;
+    padding: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
